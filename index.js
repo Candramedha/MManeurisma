@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[0,0,1080,1920]]},
+		{name:"index_atlas_1", frames: [[872,746,836,349],[991,395,1042,349],[0,0,989,457],[0,1691,891,291],[0,459,870,382],[0,843,838,332],[514,1177,881,281],[893,1460,762,320],[991,0,937,393],[0,1177,512,512]]},
 		{name:"index_atlas_2", frames: [[0,0,1080,1920]]},
 		{name:"index_atlas_3", frames: [[0,0,1080,1920]]},
 		{name:"index_atlas_4", frames: [[0,0,1080,1920]]},
@@ -11,7 +11,7 @@ lib.ssMetadata = [
 		{name:"index_atlas_6", frames: [[0,0,1080,1920]]},
 		{name:"index_atlas_7", frames: [[0,0,1080,1920]]},
 		{name:"index_atlas_8", frames: [[0,0,1080,1920]]},
-		{name:"index_atlas_9", frames: [[872,746,836,349],[991,395,1042,349],[0,0,989,457],[0,1691,891,291],[0,459,870,382],[0,843,838,332],[514,1177,881,281],[893,1460,762,320],[991,0,937,393],[0,1177,512,512]]},
+		{name:"index_atlas_9", frames: [[0,0,1080,1920]]},
 		{name:"index_atlas_10", frames: [[0,322,847,266],[0,590,536,123],[0,0,762,320]]}
 ];
 
@@ -44,35 +44,35 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_11 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
@@ -86,28 +86,28 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
@@ -121,28 +121,28 @@ lib.ssMetadata = [
 
 
 (lib.Comp1_00000 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_9"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Comp2_00000 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Comp3_00000 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Comp4_00000 = function() {
-	this.initialize(ss["index_atlas_4"]);
+	this.initialize(ss["index_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -156,37 +156,31 @@ lib.ssMetadata = [
 
 
 (lib.Comp6_00000 = function() {
-	this.initialize(ss["index_atlas_6"]);
+	this.initialize(ss["index_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.DesignSumberinformasi = function() {
-	this.initialize(ss["index_atlas_7"]);
+	this.initialize(ss["index_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.home_5542748 = function() {
-	this.initialize(ss["index_atlas_9"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PScoverVideo2 = function() {
-	this.initialize(ss["index_atlas_8"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Untitled1 = function() {
-	this.initialize(img.Untitled1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,3508,2480);// helper functions:
+// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
@@ -1114,7 +1108,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,29,89,219,239,259,279];
+	this.actionFrames = [0,29,89,219,239,259,279,289];
 	// timeline functions:
 	this.frame_0 = function() {
 		this.stop(); // Stop on the first frame
@@ -1214,9 +1208,27 @@ if (reversed == null) { reversed = false; }
 		
 		*/
 	}
+	this.frame_289 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.SI_kembali_btn.addEventListener("click", fl_ClickToGoToAndStopAtFrame_21.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_21()
+		{
+			this.gotoAndStop(5);
+		}
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(29).call(this.frame_29).wait(60).call(this.frame_89).wait(130).call(this.frame_219).wait(20).call(this.frame_239).wait(20).call(this.frame_259).wait(20).call(this.frame_279).wait(21));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(29).call(this.frame_29).wait(60).call(this.frame_89).wait(130).call(this.frame_219).wait(20).call(this.frame_239).wait(20).call(this.frame_259).wait(20).call(this.frame_279).wait(10).call(this.frame_289).wait(11));
 
 	// Button
 	this.movieClip_1 = new lib.Symbol1();
@@ -1257,7 +1269,7 @@ if (reversed == null) { reversed = false; }
 	this.SI_kembali_btn.setTransform(999.95,1761,0.8289,0.8289);
 	new cjs.ButtonHelper(this.SI_kembali_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.movieClip_1}]}).to({state:[{t:this.movieClip_1_1}]},29).to({state:[{t:this.ti_kembali_btn}]},60).to({state:[{t:this.movieClip_2}]},111).to({state:[{t:this.movieClip_3}]},19).to({state:[{t:this.movieClip_4}]},20).to({state:[{t:this.movieClip_5}]},20).to({state:[{t:this.movieClip_6}]},20).to({state:[{t:this.SI_kembali_btn,p:{x:999.95,y:1761}}]},10).to({state:[{t:this.SI_kembali_btn,p:{x:965.65,y:142.25}}]},5).wait(6));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.movieClip_1}]}).to({state:[{t:this.movieClip_1_1}]},29).to({state:[{t:this.ti_kembali_btn}]},60).to({state:[{t:this.movieClip_2}]},111).to({state:[{t:this.movieClip_3}]},19).to({state:[{t:this.movieClip_4}]},20).to({state:[{t:this.movieClip_5}]},20).to({state:[{t:this.movieClip_6}]},20).to({state:[{t:this.SI_kembali_btn}]},10).wait(11));
 
 	// object
 	this.YTB = new lib.my_youtube({'id': 'YTB', 'src':'https://www.youtube.com/embed/wHv7D_PwIk8?si=SArSAeRC-w0yruYR', 'alt':'youtube video', 'frameborder':'0', 'allowfullscreen':'allowfullscreen', 'visible':true, 'class':'ui-youtube'});
@@ -1272,29 +1284,26 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.Comp1_00000();
 	this.instance.setTransform(3,6,0.9973,0.9973);
 
-	this.instance_1 = new lib.Untitled1();
-	this.instance_1.setTransform(-253,279,0.3236,0.3236);
+	this.instance_1 = new lib.Comp2_00000();
 
-	this.instance_2 = new lib.Comp2_00000();
+	this.instance_2 = new lib.PScoverVideo2();
 
-	this.instance_3 = new lib.PScoverVideo2();
+	this.instance_3 = new lib.Comp3_00000();
 
-	this.instance_4 = new lib.Comp3_00000();
+	this.instance_4 = new lib.Comp4_00000();
 
-	this.instance_5 = new lib.Comp4_00000();
+	this.instance_5 = new lib.Comp5_00000();
 
-	this.instance_6 = new lib.Comp5_00000();
+	this.instance_6 = new lib.Comp6_00000();
 
-	this.instance_7 = new lib.Comp6_00000();
+	this.instance_7 = new lib.DesignSumberinformasi();
 
-	this.instance_8 = new lib.DesignSumberinformasi();
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).to({state:[{t:this.instance_2}]},29).to({state:[{t:this.instance_3}]},60).to({state:[{t:this.instance_4}]},111).to({state:[{t:this.instance_5},{t:this.instance_4}]},19).to({state:[{t:this.instance_6},{t:this.instance_5}]},20).to({state:[{t:this.instance_7},{t:this.instance_6}]},20).to({state:[{t:this.instance_7}]},20).to({state:[{t:this.instance_8}]},10).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},29).to({state:[{t:this.instance_2}]},60).to({state:[{t:this.instance_3}]},111).to({state:[{t:this.instance_4},{t:this.instance_3}]},19).to({state:[{t:this.instance_5},{t:this.instance_4}]},20).to({state:[{t:this.instance_6},{t:this.instance_5}]},20).to({state:[{t:this.instance_6}]},20).to({state:[{t:this.instance_7}]},10).wait(11));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(287,960,793.2,960.9000000000001);
+p.nominalBounds = new cjs.Rectangle(540,960,540.2,960.9000000000001);
 // library properties:
 lib.properties = {
 	id: '0D41FCF923110B4EB3BEC7D382C28BD4',
@@ -1304,7 +1313,6 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Untitled1.png", id:"Untitled1"},
 		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
 		{src:"images/index_atlas_2.png", id:"index_atlas_2"},
 		{src:"images/index_atlas_3.png", id:"index_atlas_3"},
