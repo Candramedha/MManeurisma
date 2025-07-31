@@ -462,19 +462,19 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.backm4_button = new lib.back_btn();
 	this.backm4_button.name = "backm4_button";
-	this.backm4_button.setTransform(-505.95,-343.45);
+	this.backm4_button.setTransform(-344.15,-930.75,2.3492,2.3483);
 	new cjs.ButtonHelper(this.backm4_button, 0, 1, 1);
 
 	this.m5_kembali_btn = new lib.Home_btn();
 	this.m5_kembali_btn.name = "m5_kembali_btn";
-	this.m5_kembali_btn.setTransform(454,306.55,0.8289,0.8289);
+	this.m5_kembali_btn.setTransform(420.45,306.55,1,1,0,0,0,0.1,0);
 	new cjs.ButtonHelper(this.m5_kembali_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.m5_kembali_btn},{t:this.backm4_button}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol7, new cjs.Rectangle(-517.9,-370.5,1046.5,751.6), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol7, new cjs.Rectangle(-371,-993,881.4,1389.6), null);
 
 
 (lib.Symbol6 = function(mode,startPosition,loop,reversed) {
@@ -557,24 +557,24 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.backm3_button = new lib.back_btn();
 	this.backm3_button.name = "backm3_button";
-	this.backm3_button.setTransform(-505.95,-343.2);
+	this.backm3_button.setTransform(-343.85,-930.1,2.3492,2.3483);
 	new cjs.ButtonHelper(this.backm3_button, 0, 1, 1);
 
 	this.nextm5_button = new lib.next_btn();
 	this.nextm5_button.name = "nextm5_button";
-	this.nextm5_button.setTransform(499.05,-343.7);
+	this.nextm5_button.setTransform(394.4,-930.55,2.3492,2.3483);
 	new cjs.ButtonHelper(this.nextm5_button, 0, 1, 1);
 
 	this.m4_kembali_btn = new lib.Home_btn();
 	this.m4_kembali_btn.name = "m4_kembali_btn";
-	this.m4_kembali_btn.setTransform(454,306.8,0.8289,0.8289);
+	this.m4_kembali_btn.setTransform(420.55,306.8,1,1,0,0,0,0.1,0);
 	new cjs.ButtonHelper(this.m4_kembali_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.m4_kembali_btn},{t:this.nextm5_button},{t:this.backm3_button}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol6, new cjs.Rectangle(-517.9,-370.8,1046.5,752.2), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol6, new cjs.Rectangle(-370.7,-992.8,881.2,1389.6), null);
 
 
 (lib.Symbol5 = function(mode,startPosition,loop,reversed) {
@@ -657,24 +657,24 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.backm2_button = new lib.back_btn();
 	this.backm2_button.name = "backm2_button";
-	this.backm2_button.setTransform(-500,-343.7);
+	this.backm2_button.setTransform(-339.1,-929.95,2.3493,2.3483);
 	new cjs.ButtonHelper(this.backm2_button, 0, 1, 1);
 
 	this.nextm4_button = new lib.next_btn();
 	this.nextm4_button.name = "nextm4_button";
-	this.nextm4_button.setTransform(500,-344.2);
+	this.nextm4_button.setTransform(399.55,-929.95,2.347,2.3483);
 	new cjs.ButtonHelper(this.nextm4_button, 0, 1, 1);
 
 	this.m3_kembali_btn = new lib.Home_btn();
 	this.m3_kembali_btn.name = "m3_kembali_btn";
-	this.m3_kembali_btn.setTransform(447.95,307.3,0.8289,0.8289);
+	this.m3_kembali_btn.setTransform(425.95,307.3,1,1,0,0,0,0.1,0);
 	new cjs.ButtonHelper(this.m3_kembali_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.m3_kembali_btn},{t:this.nextm4_button},{t:this.backm2_button}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol5, new cjs.Rectangle(-512,-371.3,1034.5,753.2), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol5, new cjs.Rectangle(-366,-992.2,881.9,1389.5), null);
 
 
 (lib.Symbol4 = function(mode,startPosition,loop,reversed) {
@@ -757,24 +757,24 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.backm1_button = new lib.back_btn();
 	this.backm1_button.name = "backm1_button";
-	this.backm1_button.setTransform(-499.5,-348.2);
+	this.backm1_button.setTransform(-337.95,-935.1,2.3492,2.3483);
 	new cjs.ButtonHelper(this.backm1_button, 0, 1, 1);
 
 	this.nextm3_button = new lib.next_btn();
 	this.nextm3_button.name = "nextm3_button";
-	this.nextm3_button.setTransform(499.5,-348.7);
+	this.nextm3_button.setTransform(396.6,-935.1,2.3492,2.3483);
 	new cjs.ButtonHelper(this.nextm3_button, 0, 1, 1);
 
 	this.m2_kembali_btn = new lib.Home_btn();
 	this.m2_kembali_btn.name = "m2_kembali_btn";
-	this.m2_kembali_btn.setTransform(444.45,311.8,0.8289,0.8289);
+	this.m2_kembali_btn.setTransform(424.6,302.2);
 	new cjs.ButtonHelper(this.m2_kembali_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.m2_kembali_btn},{t:this.nextm3_button},{t:this.backm1_button}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol4, new cjs.Rectangle(-511.5,-375.8,1030.5,762.2), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol4, new cjs.Rectangle(-364.8,-997.4,879.4000000000001,1389.6), null);
 
 
 (lib.Symbol3 = function(mode,startPosition,loop,reversed) {
@@ -857,24 +857,24 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.back_btn = new lib.back_btn();
 	this.back_btn.name = "back_btn";
-	this.back_btn.setTransform(-505.55,-343.95);
+	this.back_btn.setTransform(-341.15,-927.35,2.347,2.3483);
 	new cjs.ButtonHelper(this.back_btn, 0, 1, 1);
 
 	this.next_btn = new lib.next_btn();
 	this.next_btn.name = "next_btn";
-	this.next_btn.setTransform(505.5,-343.45);
+	this.next_btn.setTransform(397,-929.95,2.3508,2.2784,0,0,0,0,-0.1);
 	new cjs.ButtonHelper(this.next_btn, 0, 1, 1);
 
 	this.m1_kembali_btn = new lib.Home_btn();
 	this.m1_kembali_btn.name = "m1_kembali_btn";
-	this.m1_kembali_btn.setTransform(453.4,307.05,0.8289,0.8289);
+	this.m1_kembali_btn.setTransform(422.5,307.05);
 	new cjs.ButtonHelper(this.m1_kembali_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.m1_kembali_btn},{t:this.next_btn},{t:this.back_btn}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol3, new cjs.Rectangle(-517.5,-371,1045.5,752.6), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol3, new cjs.Rectangle(-368,-990.1,880.5,1387.2), null);
 
 
 (lib.Symbol2 = function(mode,startPosition,loop,reversed) {
@@ -939,19 +939,19 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.next_button = new lib.next_btn();
 	this.next_button.name = "next_button";
-	this.next_button.setTransform(70,-350.2);
+	this.next_button.setTransform(-30.15,-936.9,2.3487,2.3487);
 	new cjs.ButtonHelper(this.next_button, 0, 1, 1);
 
 	this.sk_kembali_btn = new lib.Home_btn();
 	this.sk_kembali_btn.name = "sk_kembali_btn";
-	this.sk_kembali_btn.setTransform(-5,300.3);
+	this.sk_kembali_btn.setTransform(-3.5,300.3);
 	new cjs.ButtonHelper(this.sk_kembali_btn, 0, 1, 2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.sk_kembali_btn},{t:this.next_button}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol2, new cjs.Rectangle(-95,-377.3,180,767.6), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol2, new cjs.Rectangle(-93.5,-999.2,180,1389.5), null);
 
 
 (lib.SI_btn = function(mode,startPosition,loop,reversed) {
@@ -1269,7 +1269,7 @@ if (reversed == null) { reversed = false; }
 	this.SI_kembali_btn.setTransform(999.95,1761,0.8289,0.8289);
 	new cjs.ButtonHelper(this.SI_kembali_btn, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.movieClip_1}]}).to({state:[{t:this.movieClip_1_1}]},29).to({state:[{t:this.ti_kembali_btn}]},60).to({state:[{t:this.movieClip_2}]},111).to({state:[{t:this.movieClip_3}]},19).to({state:[{t:this.movieClip_4}]},20).to({state:[{t:this.movieClip_5}]},20).to({state:[{t:this.movieClip_6}]},20).to({state:[{t:this.SI_kembali_btn}]},10).wait(11));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.movieClip_1}]}).to({state:[{t:this.movieClip_1_1}]},29).to({state:[{t:this.ti_kembali_btn}]},60).to({state:[{t:this.movieClip_2}]},111).to({state:[{t:this.movieClip_3}]},19).to({state:[{t:this.movieClip_4}]},20).to({state:[{t:this.movieClip_5}]},20).to({state:[{t:this.movieClip_6}]},20).to({state:[{t:this.SI_kembali_btn,p:{scaleX:0.8289,scaleY:0.8289,x:999.95,y:1761}}]},10).to({state:[{t:this.SI_kembali_btn,p:{scaleX:1,scaleY:1,x:966.4,y:256.6}}]},1).wait(10));
 
 	// object
 	this.YTB = new lib.my_youtube({'id': 'YTB', 'src':'https://www.youtube.com/embed/wHv7D_PwIk8?si=SArSAeRC-w0yruYR', 'alt':'youtube video', 'frameborder':'0', 'allowfullscreen':'allowfullscreen', 'visible':true, 'class':'ui-youtube'});
